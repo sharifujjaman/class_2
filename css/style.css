@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+section{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+  font-size: 50px;
+  color: #2e2f31;
+}
+
+.hero1{
+    background-image: url(../images/rachit-tank.jpg);
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 90px;
+    
+}
+.hero2 {
+  background-color: rgb(0, 0, 0);
+  background-image: url(../images/pat-taylor.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hero2 h2{
+    color: aliceblue;
+}
+.hero3{
+    background-image: url(../images/samer-khodeir.jpg);
+    background-position: right;
+}
+.hero3 h2{
+    color: aliceblue;
+}
